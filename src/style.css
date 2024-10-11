@@ -8,10 +8,22 @@ h1{
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 10px;
+    color: rgb(252, 252, 252);
 }
 
 img{
     width: 300px;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 400px)  {
+    h1{
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
 }
